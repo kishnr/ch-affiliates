@@ -238,16 +238,14 @@ h2,
 h1,
 .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
+  margin-bottom: 0rem;
   color: var(--bs-heading-color);
 }
 
 h1,
 .h1 {
-  font-size: calc(1.375rem + 2vw);
+  font-size: calc(2.5rem + 2vw);
   font-weight: 700;
-  line-height: 128%;
 }
 
 @media (min-width: 1200px) {
@@ -255,12 +253,14 @@ h1,
   h1,
   .h1 {
     font-size: 4.5rem;
+    font-family: 'Inter';
+    font-weight:700;
   }
 }
 
 h2,
 .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.75rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
@@ -269,52 +269,66 @@ h2,
   .h2 {
     font-size: 3rem;
     font-weight: 700;
+    line-height: 128%;
+
   }
 }
 
 h3,
 .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.5rem + 0.6vw);
+  opacity: 0.8;
 }
 
 @media (min-width: 1200px) {
 
   h3,
   .h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
+    line-height: 128%;
+    font-weight: 700;
+    opacity: 0.8;
+
   }
 }
 
 h4,
 .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1rem + 0.3vw);
 }
 
 @media (min-width: 1200px) {
 
   h4,
   .h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+
   }
 }
 
 h5,
 .h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
 }
 
 p {
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 150%;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  opacity: 0.8;
 }
 
 
