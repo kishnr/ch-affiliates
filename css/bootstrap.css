@@ -21,6 +21,9 @@
   --bs-black: #212f1f;
   --bs-white: #fff;
   --bs-dm: #45385D;
+  --bs-dm-lite: rgb(69, 56, 93, .5);
+  --bs-web: #337d94;
+  --bs-web-lite: rgba(51, 125, 148, 0.5);
   --bs-brand: #D7533E;
   --bs-mobile: #521D46;
   --bs-ar: #11045D;
@@ -53,7 +56,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-dm-rgb:69, 56, 93;
+  --bs-dm-rgb: 69, 56, 93;
   --bs-primary-text: #0a58ca;
   --bs-secondary-text: #6c757d;
   --bs-success-text: #146c43;
@@ -190,9 +193,10 @@
   --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
 }
 
-.numbers{
+.numbers {
   font-family: var(--bs-num-font) !important;
 }
+
 *,
 *::before,
 *::after {
@@ -255,7 +259,7 @@ h1,
   .h1 {
     font-size: 4.5rem;
     font-family: 'Inter';
-    font-weight:700;
+    font-weight: 700;
   }
 }
 
@@ -4485,9 +4489,42 @@ fieldset:disabled .btn {
 
 }
 
+.nav-pills>.nav-item>button {
+  color: #000;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  transition: box-shadow 0.5s;
+}
+
+.nav-pills>.nav-item>button:hover{
+  box-shadow: 0px 18px 11px rgba(0, 0, 0, 0.02), 0px 8px 8px rgba(0, 0, 0, 0.03), 0px 2px 4px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+.nav-item>.dm.active {
+  background-color: var(--bs-dm);
+  box-shadow: 0px 18px 11px rgba(0, 0, 0, 0.02), 0px 8px 8px rgba(0, 0, 0, 0.03), 0px 2px 4px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+.nav-item>.web.active {
+  background-color: var(--bs-web);
+  box-shadow: 0px 18px 11px rgba(0, 0, 0, 0.02), 0px 8px 8px rgba(0, 0, 0, 0.03), 0px 2px 4px rgba(0, 0, 0, 0.03), 0px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+#pills-dm {
+  color: #f4f4f4;
+  background-size: cover;
+  background-image: url(/assets/image\ 16.png);
+}
+
+#pills-web {
+  color: #f4f4f4;
+  background-size: cover;
+  background-image: url(/assets/image\ 17.png);
+}
+
 @media (max-width: 991px) {
-  .tab-content-image{
-    display:none;
+  .tab-content-image {
+    display: none;
   }
 }
 
@@ -9458,7 +9495,7 @@ fieldset:disabled .btn {
 
 .text-dm {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dm-rgb),var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-dm-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
@@ -9561,7 +9598,7 @@ fieldset:disabled .btn {
 
 }
 
-.letter-space{
+.letter-space {
   letter-spacing: var(--bs-letter-spacing);
 }
 
