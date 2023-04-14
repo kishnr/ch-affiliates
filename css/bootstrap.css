@@ -7084,6 +7084,19 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
+.carousel-indicators-badge {
+
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: 0;
+  color: #000;
+  font-size: 12px;
+  transition: box-shadow 0.5s;
+}
+
+
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
