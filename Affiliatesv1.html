@@ -103,37 +103,59 @@
                         <h3>Get an estimate of how much you can earn for a particular service</h3>
                     </div>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide row gy-3 carousel-fade"
-                    data-bs-ride="carousel">
+                <!-- This is the old Earnings -->
+                <div class="earnings-tabs">
+                    <ul class="nav nav-pills justify-content-between" id="pills-tab" role="tablist">
 
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="dm active" aria-current="true" aria-label="Slide 1"><img class="pe-2"
-                                src="/assets/Ellipse 91.png">Digital Strategy</button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            class="web" aria-label="Slide 2"><img class="pe-2" src="/assets/Ellipse 91.png">Web
-                            Development</button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            class="brand" aria-label="Slide 3"><img class="pe-2"
-                                src="/assets/Ellipse 91.png">Branding</button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            class="mobile" aria-label="Slide 4"><img class="pe-2" src="/assets/Ellipse 91.png">Mobile
-                            Apps</button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            class="ar-vr" aria-label="Slide 5"><img class="pe-2" src="/assets/Ellipse 91.png">Augmented
-                            Reality</button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                            class="prod" aria-label="Slide 6"><img class="pe-2" src="/assets/Ellipse 91.png">Product
-                            Engineering</button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                            class="ux" aria-label="Slide 7"><img class="pe-2" src="/assets/Ellipse 91.png">User
-                            Experience</button>
-                    </div>
+                        <li class="nav-item" role="presentation">
+                            <button class="dm nav-link active" id="pills-dm-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-dm" type="button" role="tab" aria-controls="pills-dm"
+                                aria-selected="true"><img class="pe-2" src="/assets/Ellipse 91.png">DIGITAL
+                                STRATEGY</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="web nav-link" id="pills-web-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web"
+                                aria-selected="false"><img class="pe-2" src="/assets/Ellipse 91.png">WEB
+                                DEVELOPMENT</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="brand nav-link" id="pills-brand-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-brand" type="button" role="tab" aria-controls="pills-brand"
+                                aria-selected="false"><img class="pe-2" src="/assets/Ellipse 91.png">BRANDING</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="mobile nav-link" id="pills-mobile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-mobile" type="button" role="tab" aria-controls="pills-mobile"
+                                aria-selected="false"><img class="pe-2" src="/assets/Ellipse 91.png">MOBILE
+                                APPS</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="ar-vr nav-link" id="pills-ar-vr-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-ar-vr" type="button" role="tab" aria-controls="pills-ar-vr"
+                                aria-selected="false"><img class="pe-2" src="/assets/Ellipse 91.png">AUGMENTED
+                                REALITY</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="prod nav-link" id="pills-prod-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-prod" type="button" role="tab" aria-controls="pills-prod"
+                                aria-selected="false"><img class="pe-2" src="/assets/Ellipse 91.png">PRODUCT
+                                ENGINEERING</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="ux nav-link" id="pills-ux-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-ux" type="button" role="tab" aria-controls="pills-ux"
+                                aria-selected="false"><img class="pe-2" src="/assets/Ellipse 91.png">USER
+                                EXPERIENCE</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="earnings-content">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="dm tab-pane fade show active rounded-3" id="pills-dm" role="tabpanel"
+                            aria-labelledby="pills-dm-tab" tabindex="0">
 
-                    <div class="carousel-inner rounded-3">
-                        <div class="carousel-item active ">
-                            <div class="pricing-content-dm row d-flex justify-content-between position-relative"
-                                id="carousel-dm">
+                            <div class="pricing-content-dm row d-flex  justify-content-between position-relative">
                                 <div class="content col-lg-7 themed-grid-col p-4">
                                     <h6><span class="badge bg-white text-dm">Digital Strategy</span></h6>
                                     <h1 class="numbers">$542.76</h1>
@@ -152,24 +174,37 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="/assets/image 17.png" class="d-block w-100" alt="...">
+                        <div class="web tab-pane fade rounded-3" id="pills-web" role="tabpanel"
+                            aria-labelledby="pills-web-tab" tabindex="0">
+                            <div class="pricing-content-web row d-flex  justify-content-between position-relative">
+                                <div class="content col-lg-7 themed-grid-col p-4">
+                                    <h6><span class="badge bg-white text-dm">Digital Strategy</span></h6>
+                                    <h1 class="numbers">$32.76</h1>
+                                    <h6 class="text-opacity-50">per month</h6>
+                                    <p class="">We define a winning digital strategy with the right combination of
+                                        products,
+                                        services, capabilities, and technologies to ensure that our client reaches their
+                                        business goals in this digital world.</p>
+                                </div>
+
+                                <div class="col-lg-5 themed-grid-col d-flex justify-content-end">
+                                    <div class="tab-content-image">
+                                        <img src="/assets/dilini images 1.png" height="100%"
+                                            class="custom position-absolute bottom-0 end-0">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="/assets/image 16.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/image 16.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/image 16.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/image 16.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/image 16.png" class="d-block w-100" alt="...">
-                        </div>
+                        <div class="brand tab-pane fade" id="pills-brand" role="tabpanel"
+                            aria-labelledby="pills-brand-tab" tabindex="0">...</div>
+                        <div class="mobile tab-pane fade" id="pills-mobile" role="tabpanel"
+                            aria-labelledby="pills-mobile-tab" tabindex="0">...</div>
+                        <div class="ar-vr tab-pane fade" id="pills-ar-vr" role="tabpanel"
+                            aria-labelledby="pills-ar-vr-tab" tabindex="0">...</div>
+                        <div class="prod tab-pane fade" id="pills-prod" role="tabpanel" aria-labelledby="pills-prod-tab"
+                            tabindex="0">...</div>
+                        <div class="ux tab-pane fade" id="pills-ux" role="tabpanel" aria-labelledby="pills-ux-tab"
+                            tabindex="0">...</div>
                     </div>
                 </div>
             </div>
