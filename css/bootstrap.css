@@ -215,8 +215,8 @@
 }
 
 body {
-  overflow-x:hidden;
-  margin:0px;
+  overflow-x: hidden;
+  margin: 0px;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -838,6 +838,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  overflow-x: hidden;
   justify-content: space-between;
 }
 
@@ -846,6 +847,7 @@ progress {
   .container-sm,
   .container {
     max-width: 540px;
+    overflow-x: visible !important;
   }
 }
 
@@ -855,6 +857,7 @@ progress {
   .container-sm,
   .container {
     max-width: 720px;
+    overflow-x: visible !important;
   }
 }
 
@@ -865,6 +868,8 @@ progress {
   .container-sm,
   .container {
     max-width: 960px;
+    overflow-x: visible !important;
+
   }
 }
 
@@ -876,6 +881,7 @@ progress {
   .container-sm,
   .container {
     max-width: 1140px;
+    overflow-x: visible !important;
   }
 }
 
@@ -888,6 +894,7 @@ progress {
   .container-sm,
   .container {
     max-width: 1396px;
+    overflow-x: visible !important;
   }
 }
 
@@ -5090,8 +5097,13 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-border-radius);
 }
 
-#retainer{
+#retainer {
   background-image: url(/assets/cardRetainer.png);
+  background-size: cover;
+}
+
+#projects {
+  background-image: url(/assets/cardProject.png);
   background-size: cover;
 }
 
@@ -5812,9 +5824,9 @@ fieldset:disabled .btn {
   position: relative;
   display: block;
   padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
-  color: var(--bs-list-group-color);
+  color: inherit;
   text-decoration: none;
-  background-color: var(--bs-list-group-bg);
+  background-color: inherit;
   border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
 }
 
@@ -9926,7 +9938,7 @@ fieldset:disabled .btn {
 }
 
 .bg-transparent {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0;
   background-color: transparent !important;
 }
 
