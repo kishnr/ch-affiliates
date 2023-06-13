@@ -226,6 +226,11 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+
 }
 
 hr {
@@ -5063,6 +5068,11 @@ fieldset:disabled .btn {
 
 .shadow-card {
   filter: drop-shadow(0px 78px 31px rgba(0, 0, 0, 0.01)) drop-shadow(0px 44px 26px rgba(0, 0, 0, 0.05)) drop-shadow(0px 19px 19px rgba(0, 0, 0, 0.09)) drop-shadow(0px 5px 11px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+}
+
+#testemonials {
+  background-image: url(/assets/bg-frame.png);
+  background-size: cover;
 }
 
 .card {
