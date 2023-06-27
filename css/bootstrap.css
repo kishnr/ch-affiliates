@@ -5104,7 +5104,7 @@ fieldset:disabled .btn {
   background-color: var(--bs-card-bg);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-  border-radius: var(--bs-card-border-radius);
+  bor der-radius: var(--bs-card-border-radius);
 }
 
 #retainer {
@@ -5239,6 +5239,10 @@ fieldset:disabled .btn {
 
 .card-group>.card {
   margin-bottom: var(--bs-card-group-margin);
+}
+
+.reviews>.card{
+  border-radius: none;
 }
 
 @media (min-width: 576px) {
