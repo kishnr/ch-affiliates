@@ -4,266 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="stylesheesAff.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="/carousel.js"></script>
 
-    <style>
-        body {
-            background-color: #4A148C
-        }
-
-
-        @media (max-width:991.98px) {
-            .padding {
-                padding: 1.5rem
-            }
-        }
-
-        @media (max-width:767.98px) {
-            .padding {
-                padding: 1rem
-            }
-        }
-
-        .padding {
-            padding: 5rem
-        }
-
-        .card {
-            position: relative;
-            display: flex;
-            width: 600px;
-            flex-direction: column;
-            min-width: 0;
-            word-wrap: break-word;
-            background-color: #fff;
-            background-clip: border-box;
-            border: 1px solid #d2d2dc;
-            border-radius: 11px;
-            -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-            -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-            box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
-        }
-
-        .card .card-body {
-            padding: 1rem 1rem;
-        }
-
-        .card-body {
-            flex: 1 1 auto;
-            padding: 1.25rem
-        }
-
-        p {
-            font-size: 0.875rem;
-            margin-bottom: .5rem;
-            line-height: 1.5rem
-        }
-
-        h4 {
-            line-height: .2 !important;
-        }
-
-
-        .items {
-            width: 90%;
-            margin: 0px auto;
-            margin-top: 100px
-        }
-
-        .slick-slide {
-            margin: 10px
-        }
-
-
-        .media iframe,
-        .media-content {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            border: 0;
-            border-radius: inherit;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            background-color: rgba(120, 120, 120, .1);
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center
-        }
-
-        .media-content:before {
-            content: '';
-            position: absolute;
-            height: 10%;
-            width: 90%;
-            left: 5%;
-            bottom: 0;
-            background: inherit;
-            background-position-y: 100%;
-            filter: blur(10px)
-        }
-
-        .circle .media-content:before {
-            width: 40%;
-            left: 30%
-        }
-
-
-        .profile-image {
-            width: 100%;
-            height: 200px;
-            border-top-left-radius: 11px !important;
-            border-top-right-radius: 11px;
-        }
-
-        .card-title {
-            font-size: 19px;
-            font-weight: 200;
-        }
-    </style>
-
-    <script>
-        $(document).ready(function () {
-
-            $('.items').slick({
-                dots: true,
-                infinite: true,
-                speed: 800,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
-                            infinite: true,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-
-                ]
-            });
-        });
-    </script>
 </head>
+<script>
+
+
+
+</script>
 
 <body>
-    <div class="items">
-        <div class="card">
-            <div class="media media-2x1 gd-primary">
-
-                <img class="profile-image"
-                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1568709978/BBBootstrap/2.jpg">
 
 
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Delbert Simonas</h5>
-                <p class="card-text">"Online reviews can make or break a customer's decision to make a purchase. Read
-                    about
-                    these customer review on site"</p>
-            </div>
-
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
         </div>
-
-        <div class="card">
-            <div class="media media-2x1 gd-primary">
-
-                <img class="profile-image"
-                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561869127/BBBootstrap/img-3.jpg">
-
-
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/bg-frame.png" class="d-block w-100" alt="...">
             </div>
-            <div class="card-body">
-                <h5 class="card-title">Tikoh Amin</h5>
-                <p class="card-text">"When you think of Apple you automatically think expensive if your anything like
-                    me.
-                    When purchasing this laptop I was skeptical."</p>
+            <div class="carousel-item">
+                <img src="/assets/bg-frame.png" class="d-block w-100" alt="...">
             </div>
-
+            <div class="carousel-item">
+                <img src="/assets/bg-frame.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/bg-frame.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/bg-frame.png" class="d-block w-100" alt="...">
+            </div>
         </div>
-
-        <div class="card">
-            <div class="media media-2x1 gd-primary">
-
-                <img class="profile-image"
-                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561869127/BBBootstrap/img-2.jpg">
-
-
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Malachi Lensing</h5>
-                <p class="card-text">"I&rsquo;ve wanted a MacBook for a while now because of the build quality and the
-                    simplicity of the OS. I spend an average 6 hours a day."</p>
-            </div>
-
-        </div>
-
-
-        <div class="card">
-            <div class="media media-2x1 gd-primary">
-
-                <img class="profile-image"
-                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561869126/BBBootstrap/img-1.jpg">
-
-
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Christian Isla</h5>
-                <p class="card-text">"This MacBook has excellent processing speed. The screen is crystal clear and I
-                    really
-                    enjoy the touchbar. I set it up"</p>
-            </div>
-
-        </div>
-
-
-
-        <div class="card">
-            <div class="media media-2x1 gd-primary">
-
-                <img class="profile-image"
-                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1563294707/Profile/img-1.jpg">
-
-
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Lori Charles</h5>
-                <p class="card-text">"For the last 10 years, I have owned an old Gateway laptop. Although it was amazing
-                    and
-                    lasted me, it was time for an upgrade."</p>
-            </div>
-
-        </div>
-
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+    
+    <div id = "boxnoname" style="width:50px; background-color: brown;">Red</div>
+    <p id="demo"></p>
+    <button onclick="myFunction()">Click Me</button>
 </body>
 
 </html>
