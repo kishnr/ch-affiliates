@@ -1,4 +1,3 @@
 # CreativeHub-Affiliates
 
-Initializing Changes
 
