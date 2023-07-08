@@ -1,4 +1,4 @@
-#CreativeHub-Affiliates
-#"Affiliates.html" is the main site 
+CreativeHub-Affiliates
+"Affiliates.html" is the main site 
 
 
