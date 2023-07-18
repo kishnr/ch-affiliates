@@ -1,4 +1,4 @@
-# CreativeHub-Affiliates
+CreativeHub-Affiliates
+"Affiliates.html" is the main site 
 
-Initializing Changes
 
