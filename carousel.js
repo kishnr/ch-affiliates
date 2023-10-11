@@ -1,12 +1,12 @@
-const carousel = document.querySelector(".carrousel");
-const arrowIcons = document.querySelectorAll(".arrow");
-const firstCard = carousel.querySelectorAll(".card")[0];
+let carousel = document.querySelector(".reviewCarousel");
+let arrowIcons = document.querySelectorAll(".arrow");
+let firstCard = carousel.querySelectorAll(".card")[0];
 
 
 let isDragStart = false, prevPageX, prevScrollLeft;
 
 let cardWidth = getComputedStyle(firstCard);
-let cardNetWidth = (firstCard.offsetWidth + parseFloat(cardWidth.marginLeft) + parseFloat(cardWidth.marginRight))*3;
+let cardNetWidth = (firstCard.offsetWidth + parseFloat(cardWidth.marginLeft) + parseFloat(cardWidth.marginRight));
 
 arrowIcons.forEach(icon => {
   icon.addEventListener("click", () => {
@@ -35,3 +35,15 @@ const dragStop = () => {
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragStop);
+
+var classList = document.getElementById('reviews').classList;
+
+var minWidth769 = window.matchMedia("(min-width: 768px)");
+
+function match() {
+  minWidth769.matches ? classList.add('col-12') : classList.remove('col-12');
+}
+
+minWidth769.addListener(match);
+
+match();

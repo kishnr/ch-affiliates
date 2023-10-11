@@ -94,7 +94,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 16px;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #221F1F;
@@ -283,7 +283,7 @@ h2,
 
   h2,
   .h2 {
-    font-size: 2.25rem;
+    font-size: 2.66667rem;
     font-weight: 700;
     line-height: 128%;
     opacity: 0.8;
@@ -300,7 +300,7 @@ h3,
 
   h3,
   .h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 128%;
     font-weight: 700;
 
@@ -316,7 +316,7 @@ h4,
 
   h4,
   .h4 {
-    font-size: 1rem;
+    font-size: 1.3333333rem;
     font-weight: 700;
     line-height: 150%;
 
@@ -332,7 +332,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: 0.875rem;
+  font-size: 0.77778rem;
   font-weight: 500;
   line-height: 14px;
   letter-spacing: 0.12rem;
@@ -341,9 +341,9 @@ h6,
 
 p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 150%;
-  opacity: 0.8;
+  opacity: 0.7;
   letter-spacing: 0.01rem;
 }
 
@@ -839,8 +839,8 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0);
   margin-right: auto;
   margin-left: auto;
   overflow-x: hidden;
@@ -6982,6 +6982,7 @@ fieldset:disabled .btn {
 
 .carousel {
   position: relative;
+  
 }
 
 .carousel.pointer-event {
@@ -8629,7 +8630,11 @@ fieldset:disabled .btn {
 .top-50 {
   top: 50% !important;
 }
-
+.top-60 {
+  top: 60% !important;
+}.top-70 {
+  top: 75% !important;
+}
 .top-75 {
   top: 75% !important;
 }
@@ -9348,6 +9353,15 @@ fieldset:disabled .btn {
 .p-5 {
   padding: 3rem !important;
 }
+.p-6 {
+  padding: 4rem !important;
+}
+.p-7 {
+  padding: 5rem !important;
+}
+.p-8 {
+  padding: 6rem !important;
+}
 
 .px-0 {
   padding-right: 0 !important;
@@ -9431,6 +9445,9 @@ fieldset:disabled .btn {
 
 .pt-5 {
   padding-top: 3rem !important;
+}
+.pb-10 {
+  padding-bottom: 10rem !important;
 }
 
 .pe-0 {

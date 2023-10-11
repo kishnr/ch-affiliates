@@ -1,0 +1,8 @@
+import socket
+
+portNo = 50505
+serverNo = socket.gethostbyname(socket.gethostname())
+
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print(serverNo)
