@@ -5107,16 +5107,6 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-border-radius);
 }
 
-#retainer {
-  background-image: url(/assets/cardRetainer.png);
-  background-size: cover;
-}
-
-#projects {
-  background-image: url(/assets/cardProject.png);
-  background-size: cover;
-}
-
 .card>hr {
   margin-right: 0;
   margin-left: 0;
@@ -5300,8 +5290,8 @@ fieldset:disabled .btn {
   --bs-accordion-border-width: var(--bs-border-width);
   --bs-accordion-border-radius: var(--bs-border-radius);
   --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
-  --bs-accordion-btn-padding-x: 1.25rem;
-  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-padding-x: 10px;
+  --bs-accordion-btn-padding-y: 10px;
   --bs-accordion-btn-color: var(--bs-body-color);
   --bs-accordion-btn-bg: var(--bs-accordion-bg);
   --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -5328,7 +5318,7 @@ fieldset:disabled .btn {
   text-align: left;
   background-color: var(--bs-accordion-btn-bg);
   border: 0;
-  border-radius: 0;
+  border-radius: 7px;
   overflow-anchor: none;
   transition: var(--bs-accordion-transition);
 }
@@ -5380,13 +5370,12 @@ fieldset:disabled .btn {
 }
 
 .accordion-header {
-  margin-bottom: 0;
+  margin-bottom: 10;
 }
 
 .accordion-item {
   color: var(--bs-accordion-color);
   background-color: var(--bs-accordion-bg);
-  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
 
 .accordion-item:first-of-type {
@@ -5397,7 +5386,7 @@ fieldset:disabled .btn {
 .accordion-item:first-of-type .accordion-button {
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
   border-top-right-radius: var(--bs-accordion-inner-border-radius);
-}
+} 
 
 .accordion-item:not(:first-of-type) {
   border-top: 0;
@@ -9296,6 +9285,18 @@ fieldset:disabled .btn {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 7rem !important;
 }
 
 .mb-auto {
