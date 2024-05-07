@@ -217,7 +217,7 @@
 body {
   overflow-x: hidden;
   margin: 0px !important;
-  font-family: var(--bs-body-font-family);
+  font-family: 'var(--bs-body-font-family)';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -5071,7 +5071,7 @@ fieldset:disabled .btn {
 }
 
 #testemonials {
-  background-image: url(assets/bg-frame.png);
+  background-image: url(/assets/bg-frame.png);
   background-size: cover;
 }
 
