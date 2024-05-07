@@ -4555,7 +4555,7 @@ fieldset:disabled .btn {
 #pills-dm {
   color: #f4f4f4;
   background-size: cover;
-  background-image: url(/assets/image\ 16.png);
+  background-image: url(assets/image\ 16.png);
 }
 
 
@@ -4563,7 +4563,7 @@ fieldset:disabled .btn {
 #pills-web {
   color: #f4f4f4;
   background-size: cover;
-  background-image: url(/assets/image\ 17.png);
+  background-image: url(assets/image\ 17.png);
 }
 
 
@@ -5071,7 +5071,7 @@ fieldset:disabled .btn {
 }
 
 #testemonials {
-  background-image: url(/assets/bg-frame.png);
+  background-image: url(assets/bg-frame.png);
   background-size: cover;
 }
 
@@ -7208,43 +7208,43 @@ fieldset:disabled .btn {
 }
 
 #carousel-dm {
-  background-image: url(/assets/cover-dm.png);
+  background-image: url(assets/cover-dm.png);
   background-size: cover;
 
 }
 
 #carousel-web {
-  background-image: url(/assets/cover-web.png);
+  background-image: url(assets/cover-web.png);
   background-size: cover;
 
 }
 
 #carousel-brand {
-  background-image: url(/assets/cover-brand.png);
+  background-image: url(assets/cover-brand.png);
   background-size: cover;
 
 }
 
 #carousel-mobile {
-  background-image: url(/assets/cover-mobile.png);
+  background-image: url(assets/cover-mobile.png);
   background-size: cover;
 
 }
 
 #carousel-ar-vr {
-  background-image: url(/assets/cover-ar-vr.png);
+  background-image: url(assets/cover-ar-vr.png);
   background-size: cover;
 
 }
 
 #carousel-prod {
-  background-image: url(/assets/cover-prod.png);
+  background-image: url(assets/cover-prod.png);
   background-size: cover;
 
 }
 
 #carousel-ux {
-  background-image: url(/assets/cover-ux.png);
+  background-image: url(assets/cover-ux.png);
   background-size: cover;
 
 }
