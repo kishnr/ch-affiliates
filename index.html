@@ -4,16 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Affiliates | CreativeHub</title>
+    <title> Affiliates | CreativeHub </title>
     <link href="stylesheesAff.css" rel="stylesheet" />
     <link href="/css/bootstrap.css" rel="stylesheet" />
     <link href="/stylee.css" rel="stylesheet" />
+    <script src="/js/responsive.js"></script>
 
 </head>
 
-<body class ="row-gap-6" style="margin-bottom: 200px;">
+<body id="alls">
     <div class="container-xl">
-        <div class="row row-gap-6">
+        <div class="row row-gap-6 px-3">
             <nav id="indexNav" class="navbar navbar-expand-xl col-12">
                 <div class="d-flex flex-row container-fluid">
                     <div class="col-1">
@@ -338,7 +339,7 @@
                     </div>
                 </div>
                 <div class="benefits-info row justify-content-center">
-                    <div class="row col-xl-9 justify-content-between">
+                    <div class="row col-xl-9 justify-content-between gy-4">
                         <div class="retainer-benefit card px-3 py-4 text-white col-lg-5 border-0" id="retainer">
                             <div class="card-body">
                                 <h6 class="badge bg-white text-dm">Projects</h6>
@@ -388,15 +389,15 @@
             </div>
             <div class="section-testemonials col-12 pb-10">
                 <div class="position-relative row row-gap-5 justify-content-center">
-                    <div class="banner col-lg-10 row justify-content-center">
+                    <div class="banner col-sm-10 row justify-content-center">
                         <div class=" text-center row row-gap-4 rounded-3 pt-5 pb-10" id="testemonials">
                             <h6 class="text-opacity-50" style="color:white">Testemonials</h6>
                             <h3 class="text-white">What our affiliates had to say</h3>
                         </div>
                     </div>
-                    <div class="section-reviews col-12 d-flex justify-content-between position-absolute top-60 z-0">
+                    <div class="section-reviews col-12 d-flex justify-content-center position-absolute top-60 z-0">
                         <img class="arrow" id="left" src="/assets/arrow-down-circle.svg">
-                        <div class="row col-xl-9">
+                        <div class="row col-12">
                             <div id="reviews" class="reviewCarousel d-flex">
                                 <div class="card col-sm px-3">
                                     <div class="card-body">
@@ -521,8 +522,9 @@
     <div class="container-fluid row row-gap-6">
         <div class="section-banner row text-white py-5 overflow-hidden" id="banner">
             <div class="row d-flex justify-content-center py-5">
-                <div class="col-lg-9 banner-content row align-items-center justify-content-between position-relative">
-                    <div class="col-lg-5 themed-grid-col">
+                <div
+                    class="col-lg-9 banner-content row align-items-center justify-content-between position-relative px-3">
+                    <div class="col-lg-5 themed-grid-col ">
                         <div class="row row-gap-4 mb-7">
                             <h6 class="text-opacity-50" style="color:white">Download Now</h6>
                             <div class="">
@@ -547,134 +549,256 @@
                     <div class="image-div col-lg-6 themed-grid-col">
                         <img src="/assets/iPhone 13 Pro.png" class="img-fluid position-absolute top-0">
                     </div>
+                    <div class="image-div-vertical col-lg-6 themed-grid-col">
+                        <img src="/assets/iPhone 13 Pro.png" class="img-fluid">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-xl py-5">
-        <div class="earnings-title row justify-content-center">
-            <div class="col-lg-6 text-center row row-gap-4">
-                <h6 class="col-12 text-opacity-50">Earnings</h6>
-                <h3 class="col-12">Get an estimate of how much you can earn for a particular service</h3>
-            </div>
-        </div>
-        <div class="accordion d-flex gap-4" id="accordionExample">
-
-            <div class="col-lg-6 themed-grid-col p-4">
-                
-                <div class="accordion-item">
-                    
-                    <h2 class="accordion-header border border-5 rounded-3">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <div class="me-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
-                                    <path d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z" fill="#E33F4A"/>
-                                    <path d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547" stroke="#FCE9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                            </div>
-                            <h5>How do I become an affiliate?</h5>
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse collapsed" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            You can start by signing up and creating an affiliate account. You can download our app on
-                            the play store/app store.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <div class="me-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
-                                    <path d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z" fill="#E33F4A"/>
-                                    <path d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547" stroke="#FCE9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                            </div>
-                            <h5>How much will I get paid, and what other benefits will I get?</h5>
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Depending on the package you choose and the number of leads you bring in, the payments and
-                            benefits you receive can vary.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <div class="me-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="0 0 38 40" fill="none">
-                                    <path d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z" fill="#E33F4A"/>
-                                    <path d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547" stroke="#FCE9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                            </div>
-                            <h5>How do I earn in this program?</h5>
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            All you have to do is pitch our services to potential clients and bring us the leads. Upon
-                            doing so, you will receive your payments and other benefits.
-                        </div>
-                    </div>
+        <div class="section-faqs row row-gap-6 px-3">
+            <div class="earnings-title row justify-content-center">
+                <div class="col-lg-6 text-center row row-gap-4">
+                    <h6 class="col-12 text-opacity-50">FAQs</h6>
+                    <h3 class="col-12">Frequently Asked Questions</h3>
                 </div>
             </div>
+            <div class="row accordion d-flex" id="accordionExample">
+                <div class="row col-xl justify-content-between">
+                    <div class="col-lg-5 themed-grid-col">
 
-            <div class="col-lg-6">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            How do I become an affiliate?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            You can start by signing up and creating an affiliate account. You can download our app on
-                            the play store/app store.
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header border border-5 rounded-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <div class="me-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40"
+                                            viewBox="0 0 38 40" fill="none">
+                                            <path
+                                                d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z"
+                                                fill="#E33F4A" />
+                                            <path
+                                                d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547"
+                                                stroke="#FCE9EA" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <h5>How do I become an affiliate?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse collapsed"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    You can start by signing up and creating an affiliate account. You can download our
+                                    app
+                                    on
+                                    the play store/app store.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="me-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40"
+                                            viewBox="0 0 38 40" fill="none">
+                                            <path
+                                                d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z"
+                                                fill="#E33F4A" />
+                                            <path
+                                                d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547"
+                                                stroke="#FCE9EA" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <h5>How much will I get paid, and what other benefits will I get?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Depending on the package you choose and the number of leads you bring in, the
+                                    payments
+                                    and
+                                    benefits you receive can vary.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <div class="me-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40"
+                                            viewBox="0 0 38 40" fill="none">
+                                            <path
+                                                d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z"
+                                                fill="#E33F4A" />
+                                            <path
+                                                d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547"
+                                                stroke="#FCE9EA" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <h5>How do I earn in this program?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    All you have to do is pitch our services to potential clients and bring us the
+                                    leads.
+                                    Upon
+                                    doing so, you will receive your payments and other benefits.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 themed-grid-col">
+
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header border border-5 rounded-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <div class="me-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40"
+                                            viewBox="0 0 38 40" fill="none">
+                                            <path
+                                                d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z"
+                                                fill="#E33F4A" />
+                                            <path
+                                                d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547"
+                                                stroke="#FCE9EA" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <h5>How do I become an affiliate?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse collapsed"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    You can start by signing up and creating an affiliate account. You can download our
+                                    app
+                                    on
+                                    the play store/app store.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="me-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40"
+                                            viewBox="0 0 38 40" fill="none">
+                                            <path
+                                                d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z"
+                                                fill="#E33F4A" />
+                                            <path
+                                                d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547"
+                                                stroke="#FCE9EA" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <h5>How much will I get paid, and what other benefits will I get?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Depending on the package you choose and the number of leads you bring in, the
+                                    payments
+                                    and
+                                    benefits you receive can vary.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <div class="me-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40"
+                                            viewBox="0 0 38 40" fill="none">
+                                            <path
+                                                d="M19 34.9797C26.8241 34.9797 33.1667 28.4505 33.1667 20.3963C33.1667 12.3422 26.8241 5.81299 19 5.81299C11.176 5.81299 4.83337 12.3422 4.83337 20.3963C4.83337 28.4505 11.176 34.9797 19 34.9797Z"
+                                                fill="#E33F4A" />
+                                            <path
+                                                d="M14.8774 16.0213C15.2105 15.0467 15.8679 14.2248 16.7332 13.7013C17.5985 13.1778 18.6159 12.9865 19.6051 13.1611C20.5943 13.3358 21.4916 13.8652 22.138 14.6557C22.7843 15.4461 23.1381 16.4465 23.1366 17.4797C23.1366 20.3963 18.8866 21.8547 18.8866 21.8547"
+                                                stroke="#FCE9EA" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 27.688H19.0133" stroke="#FCE9EA" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <h5>How do I earn in this program?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    All you have to do is pitch our services to potential clients and bring us the
+                                    leads.
+                                    Upon
+                                    doing so, you will receive your payments and other benefits.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            How much will I get paid, and what other benefits will I get?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Depending on the package you choose and the number of leads you bring in, the payments and
-                            benefits you receive can vary.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            How do I earn in this program? </button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            All you have to do is pitch our services to potential clients and bring us the leads. Upon
-                            doing so, you will receive your payments and other benefits.
-                        </div>
-                    </div>
-                </div>
+
             </div>
-
         </div>
     </div>
+    <footer class="p-5" style="background-color: #221F1F;">
+        <div class="container-xl">
+            <div class="level-one align-items-end row row-gap-4">
+                <div class="level-left col-xl-8 row row-gap-4">
+                    <div class="logo col-xl-6 row row-gap-2">
+                        <a class="navbar-brand" href="#">
+                            <img src="/assets/Logo-white.png" alt="Bootstrap">
+                        </a>
+                        <p class="text-white m-0">Become an Affiliate, Get paid</p>
+                    </div>
+                    <div class="app-logos col-lg-6 row row-gap-3">
+                        <p class="text-white m-0">
+                            Download the app
+                        </p>
+                        <div class="d-flex">
+                            <div class="col-6">
+                                <img src="/assets/appstoreBadge.png" class="img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <img src="/assets/playstoreBadge.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="level-right col-xl-4 row row-gap-2 text-end" id="lev-right">
+                    <a class="navbar-brand" href="#">
+                        <img src="/assets/Logos.png" alt="Bootstrap">
+                    </a>
+                    <p class="text-white m-0">Technology with a Purpose</p>
+                </div>
+            </div>
+            <div class="footlinks"></div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">

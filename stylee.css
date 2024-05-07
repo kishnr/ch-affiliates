@@ -1,12 +1,9 @@
-body {
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  box-sizing: border-box;
-
-}
-
 #retainer {
   background-image: url(/assets/cardRetainer.png);
+  background-size: cover;
+}
+#projects {
+  background-image: url(/assets/cardProject.png);
   background-size: cover;
 }
 
@@ -15,10 +12,7 @@ body {
   background-size: cover;
 }
 
-#projects {
-  background-image: url(/assets/cardProject.png);
-  background-size: cover;
-}
+
 
 .reviewCarousel {
   overflow-x: scroll;
@@ -50,6 +44,12 @@ body {
 
 }
 
+@media screen and (max-width:1400px) {
+  .section-reviews .card{
+    flex: 0 0 45%;
+    margin: 0px calc(5%/2);
+  }
+}
 .arrow {
   cursor: pointer;
 }
@@ -378,16 +378,20 @@ body {
 }
 
 .accordion-header {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 
-  0px 2px 4px 0px rgba(0, 0, 0, 0.03), 
-  0px 8px 8px 0px rgba(0, 0, 0, 0.03), 
-  0px 18px 11px 0px rgba(0, 0, 0, 0.02), 
-  0px 32px 13px 0px rgba(0, 0, 0, 0.00), 
-  0px 50px 14px 0px rgba(0, 0, 0, 0.00);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.03),
+    0px 8px 8px 0px rgba(0, 0, 0, 0.03),
+    0px 18px 11px 0px rgba(0, 0, 0, 0.02),
+    0px 32px 13px 0px rgba(0, 0, 0, 0.00),
+    0px 50px 14px 0px rgba(0, 0, 0, 0.00);
 
 }
 
-@media (max-width: 991px) {
+.image-div-vertical{
+  display: none;
+}
+
+@media (max-width: 992px) {
   .tab-content-image {
     display: none;
   }
@@ -416,16 +420,40 @@ body {
     background-color: var(--bs-body-bg) !important;
     box-shadow: none !important;
   }
+}
 
-  
+
+@media screen and (max-width:576px) {
+  .arrow{
+    display: none;
+  }
+  .section-reviews .card {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+  }
+}
+#myDIV{
+  height:500px;
+  width:500px;
+  background-color: aqua;
+}
+@media screen and (max-width:1200px) {
+
 }
 
 @media screen and (max-width:992px) {
+  .image-div-vertical{
+    display: block;
+  }
+
+  .image-div{
+    display: none;
+  }
+  
   .section-reviews .card {
     box-sizing: border-box;
     flex: 0 0 95%;
     margin: 0 calc(5%/2);
-
   }
 
   .window {
