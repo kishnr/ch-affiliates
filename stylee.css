@@ -1,14 +1,14 @@
 #retainer {
-  background-image: url(/assets/cardRetainer.png);
+  background-image: url(assets/cardRetainer.png);
   background-size: cover;
 }
 #projects {
-  background-image: url(/assets/cardProject.png);
+  background-image: url(assets/cardProject.png);
   background-size: cover;
 }
 
 #banner {
-  background-image: url(/assets/Backdrop.png);
+  background-image: url(assets/Backdrop.png);
   background-size: cover;
 }
 
@@ -292,43 +292,43 @@
 }
 
 #carousel-dm {
-  background-image: url(/assets/cover-dm.png);
+  background-image: url(assets/cover-dm.png);
   background-size: cover;
 
 }
 
 #carousel-web {
-  background-image: url(/assets/cover-web.png);
+  background-image: url(assets/cover-web.png);
   background-size: cover;
 
 }
 
 #carousel-brand {
-  background-image: url(/assets/cover-brand.png);
+  background-image: url(assets/cover-brand.png);
   background-size: cover;
 
 }
 
 #carousel-mobile {
-  background-image: url(/assets/cover-mobile.png);
+  background-image: url(assets/cover-mobile.png);
   background-size: cover;
 
 }
 
 #carousel-ar-vr {
-  background-image: url(/assets/cover-ar-vr.png);
+  background-image: url(assets/cover-ar-vr.png);
   background-size: cover;
 
 }
 
 #carousel-prod {
-  background-image: url(/assets/cover-prod.png);
+  background-image: url(assets/cover-prod.png);
   background-size: cover;
 
 }
 
 #carousel-ux {
-  background-image: url(/assets/cover-ux.png);
+  background-image: url(assets/cover-ux.png);
   background-size: cover;
 
 }
@@ -373,7 +373,7 @@
 }
 
 .section-banner {
-  background-image: url(/assets/Backdrop.png);
+  background-image: url(assets/Backdrop.png);
   background-size: cover;
 }
 
