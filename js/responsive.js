@@ -6,5 +6,8 @@ function myFunction() {
     if (x.matches) { // If media query matches
         var element = document.querySelector("#lev-right");
         element.classList.replace("text-end", "text-center");
+
+        var element = document.querySelector("#footerID");
+        element.classList.add("text-center")
     }
 }
