@@ -5,6 +5,6 @@ function myFunction() {
 
     if (x.matches) { // If media query matches
         var element = document.querySelector("#lev-right");
-        element.classList.replace("text-end", "text-start");
+        element.classList.replace("text-end", "text-center");
     }
 }

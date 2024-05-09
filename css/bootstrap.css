@@ -4638,7 +4638,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  align-items: center;
+  align-items: stretch;
 }
 
 .navbar-nav .show>.nav-link,
